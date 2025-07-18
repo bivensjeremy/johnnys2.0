@@ -14,7 +14,7 @@ const Page = async ({ params }) => {
             <div className="flex flex-col md:flex-row gap-12">
     
             {/* Image Section */}
-            <div className="w-full md:w-1/2 sticky top-24 h-auto">
+            <div className="w-full md:w-1/2 top-24 h-auto">
                 <div className="relative aspect-square md:aspect-[3/4] w-full overflow-hidden rounded-xl shadow-md">
                     <Image
                         src={imageUrl}

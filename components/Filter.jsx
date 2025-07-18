@@ -20,7 +20,7 @@ const FilterBy = ({ category, apparelCategories }) => {
             selectedKeys={[value]}
             size="sm"
             color="secondary"
-            className="w-1/2 font-semibold pt-3 sm:pt-0"
+            className="w-full md:w-1/2 font-semibold pt-3 sm:pt-0"
             onChange={handleSelectionChange}
         >
             <SelectItem key={[]} value={[]} className="italic">

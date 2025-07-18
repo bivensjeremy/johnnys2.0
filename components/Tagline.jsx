@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 const Tagline = () => {
     return (
-        <div className="md:py-24 py-12 text-center">
+        <div className="md:py-24 py-12 text-center px-6">
             <h2 className={clsx(fontHeader.className, 'text-5xl pb-5')}>
                 Best in Fashion
             </h2>

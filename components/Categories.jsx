@@ -11,7 +11,7 @@ const Categories = async () => {
     return (
         <section className="min-h-96 grid grid-cols-2 md:flex flex-row justify-evenly">
             {apparelCategories.map(({ name }) => (
-                <Card key={name} className="w-full h-56 md:h-96 relative overflow-hidden" as={Link} href={`/shop/${name}`} radius='none'>
+                <Card key={name} className="w-full h-96 relative overflow-hidden" as={Link} href={`/shop/${name}`} radius='none'>
                     <CardHeader className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center">
                         <h4 className={clsx(fontHeader.className, "text-white text-5xl ")}>
                             {name}

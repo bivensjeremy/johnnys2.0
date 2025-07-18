@@ -8,7 +8,7 @@ const Hero = () => {
         <section className="min-h-screen bg-cover bg-center bg-[url('/wallpaper.jpg')]">
             <div className="my-auto min-h-screen text-center bg-black bg-opacity-40 flex flex-col justify-center ">
                 
-                <h1 className={clsx(fontTitle.className, `text-5xl md:text-9xl py-8 text-zinc-50`)}>
+                <h1 className={clsx(fontTitle.className, `text-7xl md:text-9xl py-8 text-zinc-50`)}>
                     Johnny's
                 </h1>
 

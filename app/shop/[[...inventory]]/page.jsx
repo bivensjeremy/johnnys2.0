@@ -39,7 +39,7 @@ const page = async ({ params, searchParams }) => {
             <div className="grid grid-cols-1 items-center sm:grid-cols-3 justify-items-center pt-3 w-2/3 md:w-full gap-4 mx-auto">
                 <FilterBy {...{category, apparelCategories}} />
                 <SearchBar storeNotAvailable={!shopItems} />
-                <div>
+                <div className="hidden sm:block">
                     <p className="italic text-xs text-secondary font-semibold">Showing:</p>
                     <p className="font-semibold text-2xl">{category ? category : 'All Products'}</p>
                 </div>

@@ -8,7 +8,7 @@ const FAQ = () => {
     return (
         <section className="flex flex-col items-center py-12 px-6">
             <div>
-                <h2 className={clsx(fontHeader.className, 'text-4xl mb-3')}>
+                <h2 className={clsx(fontHeader.className, 'text-4xl mb-3 text-center')}>
                     Frequently Asked Questions
                 </h2>
             </div>

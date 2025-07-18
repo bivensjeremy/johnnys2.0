@@ -10,7 +10,7 @@ const Featured = () => {
         <section id="About">
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/2  my-auto  h-[50vh] flex flex-col items-center justify-center ">
-                    <p className={clsx(fontHeader.className, 'text-4xl pb-4')}>
+                    <p className={clsx(fontHeader.className, 'text-4xl pb-4 text-center')}>
                         Shop the Collection
                     </p>
 
